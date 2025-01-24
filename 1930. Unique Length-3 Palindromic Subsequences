@@ -12,8 +12,8 @@ public:
                 indices[idx].first = i;
             }
             
-            indices[idx].second = i;
-        }
+            indices[idx].second = i;//updated(indices[idx].second = i)
+    }
         
         
         int result = 0;
