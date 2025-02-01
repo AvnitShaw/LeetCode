@@ -9,7 +9,7 @@ public:
                 continue;
 
                 if(words[j].find(words[i])!= string::npos){
-            result.push_back(words[i]);
+            result.push_back(words[i]);//updated
             break;
             }
             }
