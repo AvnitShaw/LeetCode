@@ -5,7 +5,7 @@ public:
 
         long long secondRowRemainSum = 0;
 
-        long long minimizedRobot2Sum = LONG_LONG_MAX;
+        long long minimizedRobot2Sum = LONG_LONG_MAX;//updated
 
         for(int Robot1Col = 0; Robot1Col < grid[0].size(); Robot1Col++) { 
             firstRowRemainSum -= grid[0][Robot1Col];
